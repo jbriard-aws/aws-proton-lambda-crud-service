@@ -44,7 +44,7 @@ describe App do
         "body" => Base64.encode64({
           'title' => "Test",
           'description' => "Created Task",
-          'status' => "DONEE"
+          'status' => "DONE"
         }.to_json),
         "isBase64Encoded" => true
       })
